@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/server.js react-scripts start"
+    "start": "nodemon server/server.js cd.. cd client/ react-scripts start"
   },
   "keywords": [],
   "author": "",
