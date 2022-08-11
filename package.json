@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/server.js & npm run frontend",
-    "frontend": "cd client & react-scripts start"
+    //"start": "nodemon server/server.js & npm run frontend",
+    //"frontend": "cd client & react-scripts start",
+    "server": "nodemon",
+    "client": "npm start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
