@@ -1,14 +1,13 @@
-# ExpensesTracker_MERN_Stack_App
-In this project, we are going to learn how to make expense tracker application using Mongodb, Express, React and Node.
+# Famers Journal
 
+This App demonstrates how Farmers could track their expenses for deifferent farming needs and understand if they are incurring a profit or loss from specific expenses
 
-#### Cd into Server Folder and Start the Server First. ( make sure you install all node modules using 
-```bash
-pip install foobar
-```)
-#### Cd into Client Folder and Start the React Development Server. ( make sure you install all node modules using 
-```bash
-pip install foobar
-```)
+To initialize the project, cd into 'client' and 'server' directories individually and try:
 
-[Youtube Video Tutorial Link](https://youtu.be/mhM-blTHBz8)
+npm install
+
+After installation is done, from both directories try:
+
+npm start
+
+This starts the frontend and backened at the same time. Now intiialize the expense categories using POSTMAN or other similar API app.
