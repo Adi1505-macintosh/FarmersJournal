@@ -1,8 +1,8 @@
 {
-  "name": "server",
+  "name": "farmersjournal",
   "version": "1.0.0",
   "description": "",
-  "main": "client/src/index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "npm start",
     "server": "cd server & nodemon server.js",
